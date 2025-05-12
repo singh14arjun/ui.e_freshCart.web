@@ -1,0 +1,43 @@
+/* Above_footer css here */
+.policy i{
+    color: rgb(8, 145, 28);
+    font-size: 30px;
+    padding: 10px 0;
+}
+.policy h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.policy p{
+    font-weight: 200;
+    padding: 10px 0;
+}
+
+/* Above_footer css end here */
+
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+ul li{
+    padding: 5px 0;
+    font-weight: 400;
+}
+
+.middle-footer{
+
+    border-style: solid;
+    border-color: rgb(52, 47, 47);
+    border-width: 2px 0;
+}
+
+
+.middle-footer .payment-partners  img{
+    padding: 0 5px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}

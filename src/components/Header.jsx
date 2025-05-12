@@ -61,16 +61,16 @@ const Header = () => {
         </div>
    {/* its optional  */}
         <div className="header-buttom mx-20">
-          <div className="navbar flex gap-5 list-none font-semibold" style={{alignItems:"center"}} >
+          <div className="navbar flex  flex-wrap  gap-5 list-none font-semibold" style={{alignItems:"center"}} >
             <button className='p-2 rounded-xl' style={{backgroundColor:"rgb(30, 217, 13)" , fontSize:"20px"}}>All Department</button>
-               <li><a href="">Home</a></li>
+             <ul className='flex justify-between gap-5'>  <li><a href="">Home</a></li>
                <li><a href="">Shop</a></li>
                <li><a href="">Store</a></li>
                <li><a href="">Mega Menu</a></li>
                <li><a href="">Pages</a></li>
                <li><a href="">Account</a></li>
                <li><a href="">Dashboard</a></li>
-               <li><a href="">Doc</a></li>
+               <li><a href="">Doc</a></li></ul>
           </div>
         </div>
       </div>
