@@ -1,0 +1,37 @@
+/* Overlay covering the screen */
+.cartDisplay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: 1000;
+}
+
+/* Cart panel with animation */
+.cartOverLayperDisplay {
+  background: white;
+  padding: 20px;
+  width: 600px;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  animation: slideInRight 0.3s ease-in-out;
+}
+
+/* Slide in from right keyframes */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
