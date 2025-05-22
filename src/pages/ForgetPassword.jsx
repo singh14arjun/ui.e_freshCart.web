@@ -21,9 +21,7 @@ const ForgetPassword = () => {
               Reset Password
             </button>
 
-            <button className="w-full text-center bg-gray-500 font-semibold text-xl p-2 cursor-pointer">
-              Back
-            </button>
+            <a href="/signin">Back</a>
           </form>
         </div>
         <div className="forget-password-image  flex justify-center">
