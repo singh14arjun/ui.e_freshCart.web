@@ -10,7 +10,7 @@ const CartItems = ({
   const totalPrice = numberOfProducts * productPrice;
 
   return (
-    <tr className="w-full border border-black text-center">
+    <tr className="cart-items w-full  border-black text-center">
       <td className="p-2">
         <div className="flex justify-center items-center">
           <img src={imageSrc} alt={productName} className="w-16 h-auto" />
@@ -27,9 +27,9 @@ const CartItems = ({
       </td>
       <td className="p-5">
         <div className="flex items-center justify-center">
-          <button className="border-2 px-2 font-bold m-1">-</button>
-          <span>{numberOfProducts}</span>
-          <button className="border-2 px-2 font-bold m-1">+</button>
+          <button className="border-2 px-2 font-bold rounded-2xl">-</button>
+          <span className="border-2 px-2">{numberOfProducts}</span>
+          <button className="border-2 px-2 font-bold">+</button>
         </div>
       </td>
       <td>

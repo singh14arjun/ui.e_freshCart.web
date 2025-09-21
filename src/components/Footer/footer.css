@@ -1,4 +1,5 @@
 /* Above_footer css here */
+
 .policy i {
   color: rgb(8, 145, 28);
   font-size: 30px;
@@ -13,7 +14,41 @@
   padding: 10px 0;
 }
 
+@media screen and (max-width: 800px) {
+  .policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* Above_footer css end here */
+
+.middle,
+.middle-footer,
+.footer-bottom {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.footer .list-menu ul li,
+.footer ul li {
+  padding: 2px;
+}
+.policy i {
+  color: rgb(8, 145, 28);
+  font-size: 30px;
+  padding: 10px 0;
+}
+.policy h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.policy p {
+  font-weight: 200;
+  padding: 10px 0;
+}
 
 .middle-footer h6 {
   font-size: 10px;
@@ -50,7 +85,14 @@
 
 /* Making middle footer responsive */
 
-@media screen and (max-width: 1000px) {
+/* Making middle footer responsive */
+@media screen and (max-width: 800px) {
+  .footer .item-list .for_consumer .get-to-know-us .become-a-shopkeep {
+    display: flex;
+    width: 25%;
+  }
+}
+@media screen and (max-width: 800px) {
   .middle {
     display: flex;
     flex-direction: column;
@@ -61,15 +103,20 @@
 }
 
 /* Making footer responsive */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .footer-bottom {
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
   }
+
   .content {
     text-align: center;
   }
+
   .social-links {
+    display: flex;
     justify-content: center;
   }
 }

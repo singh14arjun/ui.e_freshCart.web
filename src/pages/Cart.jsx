@@ -12,8 +12,8 @@ const Cart = ({ isOpen, onClose }) => {
   return (
     <div className="cartDisplay">
       <div className="cartOverLayperDisplay">
-        <div className="top-heading flex justify-between  my-2 ">
-          <h1>Shop Cart</h1>
+        <div className="top-heading flex justify-between  my-4 bg-amber-200">
+          <h2>Shop Cart</h2>
           <button
             onClick={() => {
               handleClick("/");
@@ -21,6 +21,14 @@ const Cart = ({ isOpen, onClose }) => {
           >
             <i className="fa-solid fa-xmark text-red-600 text-2xl border-black border-2  p-1 "></i>
           </button>
+        </div>
+        <div className="">
+          <p className="bg-red-300 border-2 my-3 rounded-2xl border-red-800 p-2 ">
+            You’ve got FREE delivery. Start{" "}
+            <a href="" className="offers">
+              checkout now!
+            </a>
+          </p>
         </div>
         <table className="w-full  ">
           <CartItems

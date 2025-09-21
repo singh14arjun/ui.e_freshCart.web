@@ -1,0 +1,132 @@
+import React from "react";
+import ProductCard from "./popularProducts/ProductCard";
+
+const ProductItems = () => {
+  return (
+    <div className="px-20 flex flex-wrap gap-3 justify-between">
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-1.jpg"
+        category="Snack & Munchies"
+        name="Haldiram's Sev Bhujia"
+        rating={4.3}
+        reviews={4}
+        price={21.6}
+        originalPrice={24}
+        offer="10%"
+        tag="Sale"
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-2.jpg"
+        category="Bakery & Biscuits"
+        name="NutriChoice"
+        rating={4.3}
+        reviews={4}
+        price={24}
+        originalPrice={24}
+        offer=""
+        tag=""
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-3.jpg"
+        category="Bakery & Biscuits"
+        name="Cadbury 5 Star Chocolate"
+        rating={4.3}
+        reviews={4}
+        price={35}
+        originalPrice={35}
+        offer=""
+        tag="Buy 1 Get $4.00 Off"
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-4.jpg"
+        category="Snack & Munchies"
+        name="Onion Flavour Potato"
+        rating={4.3}
+        reviews={4}
+        price={3}
+        originalPrice={5}
+        offer="Hot"
+        tag="40%"
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-5.jpg"
+        category="Instant Food"
+        name="Salted Instant Popcorn"
+        rating={4.3}
+        reviews={4}
+        price={11.7}
+        originalPrice={18}
+        offer=""
+        tag="35%"
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-2.jpg"
+        category="Bakery & Biscuits"
+        name="NutriChoice"
+        rating={4.3}
+        reviews={4}
+        price={24}
+        originalPrice={24}
+        offer=""
+        tag=""
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-1.jpg"
+        category="Snack & Munchies"
+        name="Haldiram's Sev Bhujia"
+        rating={4.3}
+        reviews={4}
+        price={21.6}
+        originalPrice={24}
+        offer="10%"
+        tag="Sale"
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-6.jpg"
+        category="Dairy,Bread & Eggs"
+        name="Blueberry Greek Yogurt"
+        rating={4.3}
+        reviews={4}
+        price={14.4}
+        originalPrice={24}
+        offer="40%"
+        tag=""
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-7.jpg"
+        category="Dairy,Bread & Eggs"
+        name="Britannia Cheese Slices"
+        rating={4.3}
+        reviews={4}
+        price={24}
+        originalPrice={24}
+        offer=""
+        tag=""
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-8.jpg"
+        category="Instant Food"
+        name="Kellogg's Original Cereals"
+        rating={4.3}
+        reviews={4}
+        price={29.75}
+        originalPrice={35}
+        offer="15%"
+        tag=""
+      />
+      <ProductCard
+        imageSrc="https://freshcart-next-js.vercel.app/images/products/product-img-2.jpg"
+        category="Bakery & Biscuits"
+        name="NutriChoice"
+        rating={4.3}
+        reviews={4}
+        price={24}
+        originalPrice={24}
+        offer=""
+        tag=""
+      />
+    </div>
+  );
+};
+
+export default ProductItems;

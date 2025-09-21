@@ -1,0 +1,25 @@
+.products-box {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.products-box .image {
+  width: 100%; /* Full width of container */
+  display: flex;
+  justify-content: center; /* Centers the img horizontally */
+  align-items: center;
+  padding-top: 20px;
+}
+
+.products-box .image img {
+  width: 100px;
+  height: auto;
+}
+
+.products-box:hover {
+  box-shadow: 0 0 10px green;
+}

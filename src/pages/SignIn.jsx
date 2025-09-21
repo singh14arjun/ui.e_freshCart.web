@@ -21,7 +21,7 @@ const SignIn = () => {
             <label>
               <input type="checkbox" /> Remember me
             </label>
-            <a href="forgetPassword">
+            <a href="/forget-Password">
               Forgot password? <span>Reset It</span>
             </a>
           </div>

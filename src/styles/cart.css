@@ -11,6 +11,19 @@
   align-items: flex-start;
   z-index: 1000;
 }
+.top-heading {
+  border-width: 0 0 2px 0;
+}
+.cart-items {
+  border-width: 0 0 1px 0;
+}
+.offers {
+  text-decoration: none;
+  color: black;
+}
+.offers:hover {
+  color: green;
+}
 
 /* Cart panel with animation */
 .cartOverLayperDisplay {
